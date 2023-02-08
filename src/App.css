@@ -1,3 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ec4c8b;
+  font-family: 'Poppins', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +12,22 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.Nav-section {
+  background-color: #fff;
+  margin-top: -18px;
+  height: 100px;
+  width: 100%;
+}
+
+.seach-section {
+  background-color: #fff;
+  height: 140px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -36,4 +59,198 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header {
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 30px;
+  font-weight: 800;
+}
+
+.searchBox {
+  transform: translate(-50%, 50%);
+  background: #ec4c8b;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+  align-self: center;
+  align-items: center;
+  margin-left: 50%;
+  margin-bottom: 10%;
+}
+
+.searchButton {
+  color: white;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+
+.searchInput {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 22px;
+  transition: 0.4s;
+  line-height: 40px;
+  font-weight: 400;
+  width: 0;
+}
+
+.searchBox:hover > .searchInput {
+  width: 240px;
+  padding: 0 6px;
+}
+
+.searchBox:hover > .searchButton {
+  background: white;
+  color: #2f3640;
+}
+
+.detail-btn {
+  color: #fff;
+  font-size: 30px;
+  margin-left: 100%;
+}
+
+@media screen and (max-width: 620px) {
+  .searchBox:hover > .searchInput {
+    width: 150px;
+    padding: 0 6px;
+  }
+}
+
+.crypto-ul {
+  display: grid;
+  grid-template-columns: auto auto;
+  list-style: none;
+  margin-left: -1.5%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.detail-ul- li {
+  list-style: none;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: -40px;
+  width: 80%;
+  color: #fff;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.crypto-ul li:nth-child(odd) {
+  background-color: #ec4c8b;
+}
+
+.crypto-ul li:nth-child(even) {
+  background-color: #d1447a;
+}
+
+.list-items {
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.crypto-details {
+  color: #fff;
+}
+
+.coin-image {
+  width: 100px;
+}
+
+@media (min-width: 768px) {
+  .crypto-ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .crypto-ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+}
+
+/* detail sec */
+
+.details-sec {
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background-color: #d1447a;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.detail-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.coin-img-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-img {
+  width: 300px;
+}
+
+.info-text {
+  width: 86.3%;
+  padding-left: 10px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.detail-ul- li:nth-child(odd) {
+  background-color: #d1447a;
+}
+
+.detail-ul- li:nth-child(even) {
+  background-color: #ec4c8b;
+}
+
+.coin-res {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.back-pointer i {
+  color: #fff;
+  margin-left: 10px;
+  margin-top: 10px;
 }
