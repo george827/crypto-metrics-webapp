@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders CryptoDetails correctly 1`] = `
+<div
+  className="detail-page-all"
+  data-testid="Details-1"
+>
+  <div
+    className="coin-img-sec"
+  >
+    <img
+      className="coin-img"
+    />
+  </div>
+  <div
+    className="info-text"
+  >
+    <p>
+      Crypto Coin Info:
+    </p>
+  </div>
+  <ul
+    className="detail-ul-"
+  >
+    <li
+      className="detail-"
+    >
+      <span
+        className="coin-name"
+      >
+        Name:
+      </span>
+      <span
+        className="coin-res"
+      >
+         
+        <i
+          className="fa-solid fa-circle-arrow-right"
+        />
+      </span>
+    </li>
+    <li
+      className="detail-"
+    >
+      <span
+        className="coin-name"
+      >
+        Symbol: 
+      </span>
+      <span
+        className="coin-res"
+      >
+         
+        <i
+          className="fa-solid fa-circle-arrow-right pl-2"
+        />
+      </span>
+    </li>
+    <li
+      className="detail-"
+    >
+      <span
+        className="coin-name"
+      >
+        Price: 
+      </span>
+      <span
+        className="coin-res"
+      >
+         
+        $
+        <i
+          className="fa-solid fa-circle-arrow-right pl-2"
+        />
+      </span>
+    </li>
+    <li
+      className="detail-"
+    >
+      <span
+        className="coin-name"
+      >
+        Market Cap:
+      </span>
+      <span
+        className="coin-res"
+      >
+        <i
+          className="fa-solid fa-circle-arrow-right pl-2"
+        />
+      </span>
+    </li>
+    <li
+      className="detail-"
+    >
+      <span
+        className="coin-name"
+      >
+        Market Cap Rank:
+      </span>
+      <span
+        className="coin-res"
+      >
+        <i
+          className="fa-solid fa-circle-arrow-right pl-2"
+        />
+      </span>
+    </li>
+    <li
+      className="detail-"
+    >
+      <span
+        className="coin-name"
+      >
+        Total Volume:
+      </span>
+      <span
+        className="coin-res"
+      >
+        <i
+          className="fa-solid fa-circle-arrow-right pl-2"
+        />
+      </span>
+    </li>
+    <li
+      className="detail-"
+    >
+      <span
+        className="coin-name"
+      >
+        Highest 24h:
+      </span>
+      <span
+        className="coin-res"
+      >
+        <i
+          className="fa-solid fa-circle-arrow-right pl-2"
+        />
+      </span>
+    </li>
+    <li
+      className="detail-each-li"
+    >
+      <span
+        className="coin-name"
+      >
+        Lowest 24h
+      </span>
+      <span
+        className="coin-res"
+      >
+        <i
+          className="fa-solid fa-circle-arrow-right pl-2"
+        />
+      </span>
+    </li>
+    <li
+      className="detail-"
+    >
+      <span
+        className="coin-name"
+      >
+        Price Change 24h:
+      </span>
+      <span
+        className="coin-res"
+      >
+        <i
+          className="fa-solid fa-circle-arrow-right pl-2"
+        />
+      </span>
+    </li>
+    <li
+      className="detail-"
+    >
+      <span
+        className="coin-name"
+      >
+        Market Cap Change
+      </span>
+      <span
+        className="coin-res"
+      >
+        <i
+          className="fa-solid fa-circle-arrow-right pl-2"
+        />
+      </span>
+    </li>
+    <li
+      className="detail-"
+    >
+      <span
+        className="coin-name"
+      >
+        Total Supply:
+      </span>
+      <span
+        className="coin-res"
+      >
+        <i
+          className="fa-solid fa-circle-arrow-right pl-2"
+        />
+      </span>
+    </li>
+  </ul>
+</div>
+`;
