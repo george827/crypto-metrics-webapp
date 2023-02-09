@@ -10,7 +10,11 @@ export const CryptoList = (props) => {
       {cryptos.map((crypto) => (
         <Crypto
           key={crypto.id}
-          crypto={crypto}
+          image={crypto.image}
+          id={crypto.id}
+          currentPrice={crypto.currentPrice}
+          name={crypto.name}
+          symbol={crypto.symbol}
         />
       ))}
     </ul>

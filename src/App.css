@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #ec4c8b;
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 .App {
@@ -63,7 +63,7 @@ body {
 
 .header {
   text-align: center;
-  padding: 50px;
+  padding-top: 50px;
   margin-bottom: 30px;
   font-weight: 800;
 }
@@ -120,7 +120,7 @@ body {
 .detail-btn {
   color: #fff;
   font-size: 30px;
-  margin-left: 100%;
+  margin-left: 90%;
 }
 
 @media screen and (max-width: 620px) {
@@ -130,20 +130,26 @@ body {
   }
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 .crypto-ul {
   display: grid;
   grid-template-columns: auto auto;
   list-style: none;
-  margin-left: -1.5%;
   box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
 .detail-ul- li {
   list-style: none;
-  height: 100px;
+  height: 4rem;
   display: flex;
   align-items: center;
-  margin-left: -40px;
+  margin-left: 5%;
+  margin-right: 5%;
   width: 80%;
   color: #fff;
   justify-content: space-between;
@@ -162,8 +168,6 @@ body {
 .list-items {
   padding: 20px;
   border-radius: 4px;
-  margin-top: 10px;
-  margin-right: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -179,6 +183,10 @@ body {
   width: 100px;
 }
 
+.coin-items {
+  background-color: #ec4c8b;
+}
+
 @media (min-width: 768px) {
   .crypto-ul {
     display: grid;
@@ -190,6 +198,10 @@ body {
   .crypto-ul {
     display: grid;
     grid-template-columns: auto auto auto auto;
+  }
+
+  .Nav-section {
+    width: 100%;
   }
 }
 
@@ -225,12 +237,13 @@ body {
 }
 
 .info-text {
-  width: 86.3%;
+  width: 80%;
   padding-left: 10px;
   height: 35px;
   display: flex;
   align-items: center;
   margin-top: 20px;
+  margin-left: 50px;
   color: #fff;
   font-size: 20px;
 }

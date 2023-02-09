@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { CryptoList } from './CryptoList';
 import { LoadCryptos } from '../redux/cryptos/Cryptos';
-import '../index.css';
 
 export const CryptoContainer = () => {
   const coin = useSelector((state) => state.cryptos.cryptos);
