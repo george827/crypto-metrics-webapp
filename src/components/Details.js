@@ -1,13 +1,26 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 
-export default function Details(props) {
-  const { crypto } = props;
+export default function Details({
+  image,
+  currentPrice,
+  name,
+  symbol,
+  marketCap,
+  marketCapRank,
+  totalVolume,
+  high24h,
+  low24h,
+  priceChange24h,
+  marketCapChange24h,
+  totalSupply,
+}) {
+  // const { crypto } = props;
 
   return (
-    <div className="detail-page-all">
+    <div data-testid="Details-1" className="detail-page-all">
       <div className="coin-img-sec">
-        <img className="coin-img" src={crypto.image} alt={crypto.image} />
+        <img className="coin-img" src={image} alt={image} />
       </div>
       <div className="info-text">
         <p>Crypto Coin Info:</p>
@@ -16,7 +29,7 @@ export default function Details(props) {
         <li className="detail-">
           <span className="coin-name">Name:</span>
           <span className="coin-res">
-            {crypto.name}
+            {name}
             {' '}
             <i className="fa-solid fa-circle-arrow-right" />
           </span>
@@ -24,7 +37,7 @@ export default function Details(props) {
         <li className="detail-">
           <span className="coin-name">Symbol: </span>
           <span className="coin-res">
-            {crypto.symbol}
+            {symbol}
             {' '}
             <i className="fa-solid fa-circle-arrow-right pl-2" />
           </span>
@@ -32,7 +45,7 @@ export default function Details(props) {
         <li className="detail-">
           <span className="coin-name">Price: </span>
           <span className="coin-res">
-            {crypto.currentPrice}
+            {currentPrice}
             {' '}
             $
             <i className="fa-solid fa-circle-arrow-right pl-2" />
@@ -41,65 +54,56 @@ export default function Details(props) {
         <li className="detail-">
           <span className="coin-name">Market Cap:</span>
           <span className="coin-res">
-            {crypto.marketCap}
+            {marketCap}
             <i className="fa-solid fa-circle-arrow-right pl-2" />
           </span>
         </li>
         <li className="detail-">
           <span className="coin-name">Market Cap Rank:</span>
           <span className="coin-res">
-            {crypto.marketCapRank}
+            {marketCapRank}
             <i className="fa-solid fa-circle-arrow-right pl-2" />
           </span>
         </li>
         <li className="detail-">
           <span className="coin-name">Total Volume:</span>
           <span className="coin-res">
-            {crypto.totalVolume}
+            {totalVolume}
             <i className="fa-solid fa-circle-arrow-right pl-2" />
           </span>
         </li>
         <li className="detail-">
           <span className="coin-name">Highest 24h:</span>
           <span className="coin-res">
-            {crypto.high24h}
+            {high24h}
             <i className="fa-solid fa-circle-arrow-right pl-2" />
           </span>
         </li>
         <li className="detail-each-li">
           <span className="coin-name">Lowest 24h</span>
           <span className="coin-res">
-            {crypto.low24h}
+            {low24h}
             <i className="fa-solid fa-circle-arrow-right pl-2" />
           </span>
         </li>
         <li className="detail-">
           <span className="coin-name">Price Change 24h:</span>
           <span className="coin-res">
-            {crypto.priceChange24h}
+            {priceChange24h}
             <i className="fa-solid fa-circle-arrow-right pl-2" />
           </span>
         </li>
         <li className="detail-">
           <span className="coin-name">Market Cap Change</span>
           <span className="coin-res">
-            {crypto.marketCapChange24h}
-            <i className="fa-solid fa-circle-arrow-right pl-2" />
-          </span>
-        </li>
-        <li className="detail-">
-          <span className="coin-name">Market Cap Change Percentage 24h: </span>
-          <span className="coin-res">
-            {crypto.marketCapChangePercentage24h}
-            {' '}
-            %
+            {marketCapChange24h}
             <i className="fa-solid fa-circle-arrow-right pl-2" />
           </span>
         </li>
         <li className="detail-">
           <span className="coin-name">Total Supply:</span>
           <span className="coin-res">
-            {crypto.totalSupply}
+            {totalSupply}
             <i className="fa-solid fa-circle-arrow-right pl-2" />
           </span>
         </li>
