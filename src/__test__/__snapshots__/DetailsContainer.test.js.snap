@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Crypto Home page 1`] = `
+<div
+  className="coin-items"
+>
+  <div
+    className="main-container-details"
+  >
+    <a
+      className="back-pointer"
+      href="/"
+    >
+      <i
+        className="fa-solid fa-left-long"
+      />
+    </a>
+    <h2
+      className="details-sec"
+    >
+      Details
+    </h2>
+  </div>
+  <ul
+    className="details-ul"
+  />
+</div>
+`;
