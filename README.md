@@ -75,7 +75,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-## 🚀 [demo video](https://www.loom.com/share/cbb1a90bbbd54986878eb2e2867f7e71) <a name="live-demo"></a>
+- [Live Demo Link](https://crypto-yjtf.onrender.com)
+- [demo video](https://www.loom.com/share/cbb1a90bbbd54986878eb2e2867f7e71)
 
 > Demo link coming soon...
 
