@@ -145,10 +145,11 @@ ul {
 
 .detail-ul- li {
   list-style: none;
-  height: 100px;
+  height: 4rem;
   display: flex;
   align-items: center;
-  margin-left: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
   width: 80%;
   color: #fff;
   justify-content: space-between;
