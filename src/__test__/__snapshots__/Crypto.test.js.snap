@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Crypto Home page 1`] = `
+<li
+  className="list-items"
+>
+  <a
+    className="nav-link"
+    href="/detail/undefined"
+    onClick={[Function]}
+  >
+    <div
+      className="main-Container"
+    >
+      <img
+        className="coin-image"
+      />
+      <div
+        className="crypto-details"
+      >
+        <h2
+          className="main-page-each-li-detail"
+        >
+          <span
+            className="detail-feature-tag"
+          >
+            Name:
+          </span>
+           
+        </h2>
+        <h2
+          className="main-page-each-li-detail"
+        >
+          <span
+            className="detail-feature-tag"
+          >
+            Symbol:
+          </span>
+           
+        </h2>
+        <h2
+          className="main-page-each-li-detail"
+        >
+          <span
+            className="detail-feature-tag"
+          >
+            Price:
+          </span>
+           
+           
+          <span
+            className="USD"
+            style={
+              Object {
+                "color": "#0aa756",
+              }
+            }
+          >
+            $
+          </span>
+        </h2>
+      </div>
+      <a
+        href="/detail/undefined"
+        onClick={[Function]}
+      >
+        <div
+          className="detail_btn"
+        >
+          <i
+            className="fa-solid fa-circle-arrow-right ml-auto detail-btn"
+          />
+        </div>
+      </a>
+    </div>
+  </a>
+</li>
+`;

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Crypto Home page 1`] = `
+<div
+  className="all-content"
+>
+  <div
+    className="main-container"
+  >
+    <div
+      className="seach-section"
+    >
+      <div
+        className="searchBox"
+      >
+        <input
+          className="searchInput"
+          onChange={[Function]}
+          placeholder="Search..."
+          type="text"
+        />
+        <button
+          className="searchButton"
+          onChange={[Function]}
+          type="button"
+        >
+          <i
+            className="fas fa-search"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="crypto-items"
+  >
+    <ul
+      className="crypto-ul"
+    />
+  </div>
+</div>
+`;
